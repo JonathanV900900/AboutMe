@@ -22,7 +22,8 @@ struct HomeScreen: View {
         }
         .navigationTitle("Jonathan V.")
         .foregroundStyle(Color .black)
-        .buttonStyle(.glass)
+        .buttonStyle(.glassProminent)
+        .tint(.gray)
     }
     
     private var generalLifeSection: some View {
